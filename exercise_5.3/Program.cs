@@ -22,6 +22,6 @@ double min = Array[0];
       min = Array[i];
     }
   }
-  double decision = max - min;
+  double ans = max - min;
 
-  Console.WriteLine($"\nРазница между между максимальным и минимальным элементами массива = {decision}");
+  Console.WriteLine($"\nРазница между между максимальным и минимальным элементами массива = {ans}");
